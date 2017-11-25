@@ -1,0 +1,17 @@
+{
+  "name": "header-images",
+  "version": "1.0.0",
+  "description": "makin' some social media header images, y'all",
+  "repository": "https://github.com/lowmess/header-images",
+  "license": "MIT",
+  "scripts": {
+    "generate": "herohero index.html",
+    "precommit": "npm run generate"
+  },
+  "dependencies": {
+    "herohero": "^0.0.2"
+  },
+  "devDependencies": {
+    "husky": "^0.14.3"
+  }
+}
